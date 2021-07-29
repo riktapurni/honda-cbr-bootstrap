@@ -57,7 +57,7 @@ header {
 }
 .banner .btn {
   max-width: 168px;
-  height: 44px;
+  max-height: 44px;
   padding: 10px 46px;
 }
 
@@ -160,11 +160,18 @@ header {
     font-weight: 600;
     line-height: 54px;
   }
+  .banner-text p {
+    max-width: 321px;
+  }
+  .banner-img img {
+    max-width: 321px;
+    max-height: 260px;
+  }
   .featured-bike .col:nth-child(2) {
     margin: 100px 0;
   }
   .client .section-title {
-    width: 222px;
+    max-width: 222px;
     margin: auto;
   }
   .frequent-question-content {
